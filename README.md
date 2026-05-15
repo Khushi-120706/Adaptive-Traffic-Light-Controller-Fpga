@@ -11,13 +11,9 @@ The project was developed as part of the VLSI Design subject in Sem-4 (ECE).
 ## Objective
 
 - Design a 4-way traffic light controller using FSM
-
 - Implement the design using Verilog HDL
-
 - Simulate and verify traffic signal sequencing
-
 - Deploy the design on FPGA hardware
-
 - Demonstrate adaptive traffic control using density sensors.
 
 ---
@@ -42,13 +38,9 @@ The project was developed as part of the VLSI Design subject in Sem-4 (ECE).
 ## Software & Hardware Used
 
 - Xilinx Vivado
-
 - Verilog HDL
-
 - Basys 3 FPGA Board (Artix-7 XC7A35T)
-
 - Breadboard / Custom PCB
-
 - LEDs for Traffic Signal Indication
 
 ---
@@ -56,11 +48,8 @@ The project was developed as part of the VLSI Design subject in Sem-4 (ECE).
 ## Network / System Architecture
 
 - 4-way traffic junction
-
 - Moore FSM-based controller
-
 - Density-based adaptive timing
-
 - FPGA-driven real-time signal control
 
 ---
@@ -82,11 +71,8 @@ Traffic congestion is one of the major problems in urban areas. Conventional tra
 This project introduces an FPGA-based adaptive traffic controller that:
 
 - Improves traffic management efficiency
-
 - Reduces manual intervention
-
 - Ensures safe signal transitions
-
 - Supports real-time operation
 
 ---
