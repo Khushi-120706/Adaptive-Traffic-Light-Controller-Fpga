@@ -93,32 +93,28 @@ This project introduces an FPGA-based adaptive traffic controller that:
 
 ## Working Principle
 
-Step 1: State Initialization
-
+## Step 1: State Initialization
 The FSM starts from the North Green (NG) state.
 
-Step 2: Timer-Based Operation
-
+## Step 2: Timer-Based Operation
 A counter controls GREEN and YELLOW phase durations.
 
-Step 3: Adaptive Control
-
+## Step 3: Adaptive Control
 Traffic density sensors determine whether the current GREEN phase should continue or move to the next direction.
 
-Step 4: Sequential Transition
-
+## Step 4: Sequential Transition
 The FSM cycles through all traffic directions safely.
 
 ---
 
 ## Verilog Design Features
 
-• Moore FSM Architecture
-• 8 Traffic States
-• Adaptive Timing Logic
-• Counter-Based Timing Control
-• Separate Sequential & Combinational Blocks
-• FPGA-Compatible Design
+- Moore FSM Architecture
+- 8 Traffic States
+- Adaptive Timing Logic
+- Counter-Based Timing Control
+- Separate Sequential & Combinational Blocks
+- FPGA-Compatible Design
 
 ---
 
@@ -126,17 +122,17 @@ The FSM cycles through all traffic directions safely.
 
 ## Signal	Pins
 
-clk - 	W5
-reset - 	U18
-north_density - 	K3
-east_density - 	M3
-south_density - M1
-west_density - N1
+- clk - 	W5
+- reset - 	U18
+- north_density - 	K3
+- east_density - 	M3
+- south_density - M1
+- west_density - N1
 
 
 ## I/O Standard
 
-LVCMOS33
+- LVCMOS33
 
 ---
 
@@ -242,4 +238,4 @@ This project successfully demonstrated the implementation of an FPGA-based Adapt
 
 Project Type
 
-Mini Project – VLSI Design (BTEC13404)
+Mini Project – VLSI Design
